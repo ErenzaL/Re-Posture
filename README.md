@@ -119,7 +119,7 @@ python -m app.main
 ```
 ---
 
-## 8. Sysytem Architecture
+## 8. System Architecture
             ┌──────────────────────────┐
             │        Webcam Input       │
             └─────────────┬────────────┘
