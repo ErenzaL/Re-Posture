@@ -115,8 +115,50 @@ The UI was designed to minimize distraction while maintaining awareness.
 
 ```bash
 pip install -r requirements.txt
-python -m app.main
-
+python -m app.main 
+```
 ---
+
+## 8. Sysytem Architecture
+            ┌──────────────────────────┐
+            │        Webcam Input       │
+            └─────────────┬────────────┘
+                          │
+                          ▼
+            ┌──────────────────────────┐
+            │   Video Thread Module    │
+            │  (OpenCV Frame Capture)  │
+            └─────────────┬────────────┘
+                          │
+                          ▼
+            ┌──────────────────────────┐
+            │   Pose Estimator Module  │
+            │  - MediaPipe Landmark    │
+            │  - Skeleton Rendering    │
+            │  - 224x224 Preprocessing │
+            └─────────────┬────────────┘
+                          │
+                          ▼
+            ┌──────────────────────────┐
+            │  ResNet50 Classifier     │
+            │  (Transfer Learning)     │
+            └─────────────┬────────────┘
+                          │
+                          ▼
+            ┌──────────────────────────┐
+            │     UI Controller        │
+            │  - Status Update         │
+            │  - Confidence Display    │
+            │  - Duration Tracking     │
+            │  - Warning Trigger       │
+            └─────────────┬────────────┘
+                          │
+             ┌────────────┴────────────┐
+             ▼                         ▼
+    ┌──────────────────┐      ┌──────────────────┐
+    │ Snapshot Logging │      │ Windows Alert     │
+    │ (app_data_save)  │      │ Notification      │
+    └──────────────────┘      └──────────────────┘
+
 
 
