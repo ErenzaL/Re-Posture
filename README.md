@@ -2,7 +2,7 @@
 AI-Based Posture Analysis and Alert System
 <img width="1409" height="887" alt="image" src="https://github.com/user-attachments/assets/458ac105-24a3-44e8-8dbc-672b0aa2985f" />
 
-
+### **Project Timeline :** 15 October 2025 – 12 December 2025
 
 ## 1. Project Overview
 RE:Posture is a real-time AI deployment project designed to monitor and evaluate user posture during prolonged computer use.
