@@ -117,6 +117,8 @@ The UI was designed to minimize distraction while maintaining awareness.
 pip install -r requirements.txt
 python -m app.main
 
+---
+
 ## 8. System Architecture
 
             ┌──────────────────────────┐
