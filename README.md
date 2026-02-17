@@ -1,6 +1,7 @@
 # Re-Posture
 AI-Based Posture Analysis and Alert System
-<img width="736" height="464" alt="image" src="https://github.com/user-attachments/assets/0f485ac0-5376-4a76-ace6-4bc7cc29f05d" />
+<img width="1409" height="887" alt="image" src="https://github.com/user-attachments/assets/458ac105-24a3-44e8-8dbc-672b0aa2985f" />
+
 
 
 ## 1. Project Overview
