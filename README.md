@@ -122,7 +122,7 @@ python -m app.main
 
 ## 8. System Architecture
             ┌──────────────────────────┐
-            │        Webcam Input       │
+            │        Webcam Input      │
             └─────────────┬────────────┘
                           │
                           ▼
@@ -157,8 +157,8 @@ python -m app.main
              ┌────────────┴────────────┐
              ▼                         ▼
     ┌──────────────────┐      ┌──────────────────┐
-    │ Snapshot Logging │      │ Windows Alert     │
-    │ (app_data_save)  │      │ Notification      │
+    │ Snapshot Logging │      │ Windows Alert    │
+    │ (app_data_save)  │      │ Notification     │
     └──────────────────┘      └──────────────────┘
 
 
