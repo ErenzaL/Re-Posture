@@ -1,0 +1,7 @@
+tensorflow==2.16.1
+opencv-python==4.11.0.86
+opencv-contrib-python==4.11.0.86
+mediapipe==0.10.21
+Pillow==12.0.0
+plyer==2.1.0
+numpy==1.23.5

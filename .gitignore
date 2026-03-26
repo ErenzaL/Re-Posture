@@ -1,0 +1,5 @@
+model/pose_estimator.h5
+__pycache__/
+*.pyc
+data/
+model/pose_estimator.h5
