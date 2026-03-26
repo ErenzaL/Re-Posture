@@ -69,7 +69,7 @@ This abstraction:
 ## 4. Model Performance
 
 - Test Accuracy: **91.82%**
-- Test Loss: 0.1834
+- Test Loss: 0.1834%
 
 Despite subtle visual differences between skeleton patterns, the model achieved over 0.91 accuracy, demonstrating effective posture structure learning.
 
