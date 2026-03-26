@@ -74,6 +74,7 @@ This abstraction:
 Despite subtle visual differences between skeleton patterns, the model achieved over 0.91 accuracy, demonstrating effective posture structure learning.
 
 Overfitting was controlled using EarlyStopping and transfer learning.
+<img width="1966" height="1052" alt="image" src="https://github.com/user-attachments/assets/e5473a79-952b-4684-a74e-07a0c7ea6f5d" />
 
 ---
 
